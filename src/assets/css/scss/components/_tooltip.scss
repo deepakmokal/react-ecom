@@ -1,0 +1,49 @@
+@import '../abstracts/colors';
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .tooltip-content {
+    position: relative;
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    background-color: $white;
+    font-size: small;
+    white-space: nowrap;
+    color: $primary-500;
+    padding: .3125rem .625rem;
+    border-radius: .3125rem;
+    position: absolute;
+    z-index: 1;
+    box-shadow: .0625rem .0625rem .1875rem $light-grey-400;
+    top: calc(100% + .625rem); /* Change from 'bottom' to 'top' */
+    left: 0%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip-arrow {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+    border-top: .5rem solid $white;
+    top: -0.3125rem;
+    transform: rotate(180deg);
+    left: calc(50% - .5rem);
+
+  }
+  
+  .tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  

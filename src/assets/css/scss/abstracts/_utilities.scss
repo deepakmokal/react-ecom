@@ -1,0 +1,32 @@
+// Define spacer values
+$spacers: (
+  0: 0,
+  1: 0.25rem,
+  2: 0.5rem,
+  3: 1rem,
+  4: 1.5rem,
+  5: 3rem,
+  6: 4rem,
+);
+
+// Generate Margin Utilities
+@each $spacer, $value in $spacers {
+  .m-#{$spacer} { margin: $value !important; }
+  .mt-#{$spacer} { margin-top: $value !important; }
+  .mb-#{$spacer} { margin-bottom: $value !important; }
+  .ml-#{$spacer} { margin-left: $value !important; }
+  .mr-#{$spacer} { margin-right: $value !important; }
+  .mx-#{$spacer} { margin-left: $value !important; margin-right: $value !important; }
+  .my-#{$spacer} { margin-top: $value !important; margin-bottom: $value !important; }
+}
+
+// Generate Padding Utilities
+@each $spacer, $value in $spacers {
+  .p-#{$spacer} { padding: $value !important; }
+  .pt-#{$spacer} { padding-top: $value !important; }
+  .pb-#{$spacer} { padding-bottom: $value !important; }
+  .pl-#{$spacer} { padding-left: $value !important; }
+  .pr-#{$spacer} { padding-right: $value !important; }
+  .px-#{$spacer} { padding-left: $value !important; padding-right: $value !important; }
+  .py-#{$spacer} { padding-top: $value !important; padding-bottom: $value !important; }
+}

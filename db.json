@@ -1,0 +1,195 @@
+
+
+{
+  "posts": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+
+  "watches": [
+    {
+      "id": "pw100",  
+      "name": "Classic Elegance",
+      "description": "Elegance meets simplicity in this timeless piece.",
+      "display_img": "./src/assets/images/watch-1.jpg",
+      "hovered_image": "./src/assets/images/watch-2.jpg",
+      "original_price": 2000,
+      "discount": 20,
+      "isEMIAvailable": true,
+      "available_size": ["Medium"],
+      "likes": 120
+    },
+    {
+        "id": "pw101",
+      "name": "Modern Minimalist",
+      "description": "Sleek design for the modern professional.",
+      "display_img": "./src/assets/images/watch-3.jpg",
+      "hovered_image": "./src/assets/images/watch-4.jpg",
+      "original_price": 2500,
+      "discount": 15,
+      "isEMIAvailable": false,
+      "available_size": ["Small", "Medium"],
+      "likes": 95
+    },
+    {
+        "id": "pw103",
+      "name": "Adventure Seeker",
+      "description": "Robust and ready for any adventure.",
+      "display_img": "./src/assets/images/watch-5.jpg",
+      "hovered_image": "./src/assets/images/watch-6.jpg",
+      "original_price": 3000,
+      "discount": 10,
+      "isEMIAvailable": true,
+      "available_size": ["Large"],
+      "likes": 200
+    },
+    {
+        "id": "pw104",
+      "name": "Vintage Classic",
+      "description": "A throwback to the golden age of watchmaking.",
+      "display_img": "./src/assets/images/watch-7.jpg",
+      "hovered_image": "./src/assets/images/watch-8.jpg",
+      "original_price": 3500,
+      "discount": 25,
+      "isEMIAvailable": true,
+      "available_size": ["Medium", "Large"],
+      "likes": 180
+    },
+    {
+        "id": "pw105",
+      "name": "Tech Smartwatch",
+      "description": "Where technology meets traditional craftsmanship.",
+      "display_img": "./src/assets/images/watch-9.jpg",
+      "hovered_image": "./src/assets/images/watch-10.jpg",
+      "original_price": 4000,
+      "discount": 20,
+      "isEMIAvailable": false,
+      "available_size": ["Small", "Medium", "Large"],
+      "likes": 220
+    },
+    {
+        "id": "pw106",
+      "name": "Sporty Chrono",
+      "description": "For the athlete who demands precision.",
+      "display_img": "./src/assets/images/watch-11.jpg",
+      "hovered_image": "./src/assets/images/watch-12.jpg",
+      "original_price": 2800,
+      "discount": 15,
+      "isEMIAvailable": true,
+      "available_size": ["Large"],
+      "likes": 160
+    },
+    {
+        "id": "pw107",
+      "name": "Urban Explorer",
+      "description": "The perfect companion for your urban adventures.",
+      "display_img": "./src/assets/images/watch-13.jpg",
+      "hovered_image": "./src/assets/images/watch-14.jpg",
+      "original_price": 3500,
+      "discount": 18,
+      "isEMIAvailable": false,
+      "available_size": ["Medium"],
+      "likes": 140
+    },
+    {
+        "id": "pw108",
+      "name": "Diver's Delight",
+      "description": "Dive deeper with confidence and style.",
+      "display_img": "./src/assets/images/watch-15.jpg",
+      "hovered_image": "./src/assets/images/watch-16.jpg",
+      "original_price": 5000,
+      "discount": 20,
+      "isEMIAvailable": true,
+      "available_size": ["Medium", "Large"],
+      "likes": 250
+    },
+    {
+        "id": "pw109",
+      "name": "Glamour Glitz",
+      "description": "Add a sparkle to your evening wear.",
+      "display_img": "./src/assets/images/watch-17.jpg",
+      "hovered_image": "./src/assets/images/watch-18.jpg",
+      "original_price": 4500,
+      "discount": 12,
+      "isEMIAvailable": false,
+      "available_size": ["Small", "Medium"],
+      "likes": 300
+    },
+    {
+        "id": "pw110",
+      "name": "Pilot's Wingman",
+      "description": "Fly high with precision and elegance.",
+      "display_img": "./src/assets/images/watch-19.jpg",
+      "hovered_image": "./src/assets/images/watch-20.jpg",
+      "original_price": 6000,
+      "discount": 20,
+      "isEMIAvailable": true,
+      "available_size": ["Large"],
+      "likes": 210
+    },
+    {
+        "id": "pw111",
+      "name": "Racing Enthusiast",
+      "description": "Speed and precision for the racing soul.",
+      "display_img": "./src/assets/images/watch-1.jpg",
+      "hovered_image": "./src/assets/images/watch-2.jpg",
+      "original_price": 3500,
+      "discount": 18,
+      "isEMIAvailable": true,
+      "available_size": ["Medium", "Large"],
+      "likes": 190
+    },
+    {
+        "id": "pw112",
+      "name": "Luxury Statement",
+      "description": "Make a statement with unparalleled luxury.",
+      "display_img": "./src/assets/images/watch-3.jpg",
+      "hovered_image": "./src/assets/images/watch-4.jpg",
+      "original_price": 1000,
+      "discount": 25,
+      "isEMIAvailable": false,
+      "available_size": ["Medium"],
+      "likes": 500
+    },
+    {
+        "id": "pw113",
+      "name": "Green Revolution",
+      "description": "Eco-friendly and stylish for the conscious consumer.",
+      "display_img": "./src/assets/images/watch-5.jpg",
+      "hovered_image": "./src/assets/images/watch-6.jpg",
+      "original_price": 2200,
+      "discount": 10,
+      "isEMIAvailable": true,
+      "available_size": ["Small", "Medium"],
+      "likes": 110
+    },
+    {
+        "id": "pw114",
+      "name": "Futuristic Vision",
+      "description": "A glimpse into the future of wristwear.",
+      "display_img": "./src/assets/images/watch-7.jpg",
+      "hovered_image": "./src/assets/images/watch-8.jpg",
+      "original_price": 4500,
+      "discount": 20,
+      "isEMIAvailable": false,
+      "available_size": ["Medium", "Large"],
+      "likes": 320
+    },
+    {
+        "id": "pw115",
+      "name": "Heritage Heirloom",
+      "description": "A piece of history on your wrist.",
+      "display_img": "./src/assets/images/watch-9.jpg",
+      "hovered_image": "./src/assets/images/watch-10.jpg",
+      "original_price": 8000,
+      "discount": 30,
+      "isEMIAvailable": true,
+      "available_size": ["Medium", "Large"],
+      "likes": 400
+    }
+  ]
+}

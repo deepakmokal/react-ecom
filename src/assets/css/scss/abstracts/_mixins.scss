@@ -1,0 +1,131 @@
+
+
+/*--------------------- Mixins For Button ----------------------*/
+@mixin button($color1, $textColor, $height,$fontSize,
+ $borderWidth, $borderRadius, $borderStyle, $borderColor,
+ $paddingVertical, $paddingHorizontal) {
+    background: $color1;
+    color: $textColor;
+    text-decoration: none;
+    height: $height;
+    line-height: $height;
+    display: inline-block;
+    font-size: $fontSize;
+    font-weight: 400;
+    border-radius: $borderRadius;
+    padding: $paddingVertical $paddingHorizontal;
+    border-width: $borderWidth;
+    border-style: $borderStyle;
+    border-color: $borderColor;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@mixin responsive($breakpoint){
+    @if $breakpoint == xlarge {
+        @media screen and (min-width: $xl){
+           @content;
+        }
+    }
+    @if $breakpoint == large {
+        @media screen and (min-width: $lg){
+           @content;
+        }
+    }
+    @if $breakpoint == medium {
+        @media screen and (min-width: $md){
+          @content;
+        }
+    }
+    @if $breakpoint == small {
+       @media screen and (min-width: $sm){
+          @content;
+       }
+   }
+   @if $breakpoint == xsmall {
+       @media screen and (min-width: $xs){
+          @content;
+       }
+   }
+}
+
+
+//FLEXBOX
+// Flex container mixin
+@mixin flex-container($direction: row, $wrap: nowrap, $justify: flex-start, $align: stretch) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+  }
+  
+  // Flex item mixin
+  @mixin flex-item($grow: 0, $shrink: 1, $basis: auto) {
+    flex: $grow $shrink $basis;
+  }
+  
+  // Flex container full mixin
+  @mixin flex-full {
+    @include flex-container(row, wrap, stretch, stretch);
+  }
+  
+  // Flex row mixin
+  @mixin flex-row($wrap: nowrap, $justify: flex-start, $align: stretch) {
+    @include flex-container(row, $wrap, $justify, $align);
+  }
+  
+  // Flex column mixin
+  @mixin flex-column($wrap: nowrap, $justify: flex-start, $align: stretch) {
+    @include flex-container(column, $wrap, $justify, $align);
+  }
+  
+  // Flex center mixin
+  @mixin flex-center($direction: row) {
+    @include flex-container($direction, wrap, center, center);
+  }
+  
+  // Flex center horizontal mixin
+  @mixin flex-center-horizontal {
+    @include flex-center(row);
+  }
+  
+  // Flex center vertical mixin
+  @mixin flex-center-vertical {
+    @include flex-center(column);
+  }
+
+  //GRID
+  @mixin grid-container($columns: auto, $rows: auto, $gap: 0) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    gap: $gap;
+  }
+
+  @mixin grid-item($column: auto, $row: auto, $area: auto) {
+    grid-column: $column;
+    grid-row: $row;
+    grid-area: $area;
+  }
+
+  @mixin grid-column($start: auto, $end: auto) {
+    grid-column-start: $start;
+    grid-column-end: $end;
+  }
+
+  @mixin grid-row($start: auto, $end: auto) {
+    grid-row-start: $start;
+    grid-row-end: $end;
+  }
+
+  @mixin position($position, $top, $left, $bottom, $right, $width, $height){
+    position: $position;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+    width: $width;
+    height: $height;
+}
