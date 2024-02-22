@@ -1,10 +1,69 @@
+@import '../abstracts/breackpoints';
 @import '../abstracts/mixins';
+
+.hero-banner {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 2rem;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.sort-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    label {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    select#sort-select {
+        border: none;
+        outline: none;
+        font-size: 18px;
+        padding: 1rem;
+    }
+}
+
+
+.ad-banner {
+    width: 300px;
+    height: 100%;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
 .products {
     padding: 1rem;
 }
+
 .product-list {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
- gap: 1rem;
- 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1.3rem;
+    max-width: 100%;
+
+    .card {
+        max-width: 300px;
+    }
+
+}
+
+@include responsive(small) {
+    .product-section {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 200px));
+        /* Adjust the minmax value as needed */
+    }
+}
+
+@include responsive(xsmall) {
+    .product-section {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        /* Adjust the minmax value as needed */
+    }
 }

@@ -21,7 +21,10 @@ const ProductCard = ({
   const [hoveredImage, setHoveredImage] = useState(null);
   const [isHovered, setIsHovered] = useState(false);
   const currentPrice = calculateCurrentPrice(original_price, discount);
+  
   return (
+
+    
     <>
       <div className="card">
         <CardHeader />

@@ -1,0 +1,43 @@
+@import '../abstracts/breackpoints';
+@import '../abstracts/mixins';
+@import '../abstracts/colors';
+
+.footer-wrapper {
+    display: none;
+}
+
+@include responsive(small) {
+    .footer-wrapper {
+        display: block;
+        height: 3.125rem;
+        position: fixed;
+        width: 100%;
+        bottom: .625rem;
+        .mb-footer {
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: $white;
+            gap: 10px;
+            padding: 0 1rem;
+
+            
+        }
+
+        button {
+            
+            height: 100%;
+            width: 80%;
+            background-color: $white;
+            border: 1px solid $primary-800;
+            border-radius: .5rem;
+            color: $primary-800;
+            box-shadow: 1px 1px 3px $light-grey-800;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+
+

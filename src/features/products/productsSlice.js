@@ -3,7 +3,7 @@ import axios from "axios";
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async () => {
-    debugger
+    
     const response = await axios.get(
        "http://localhost:5000/watches"
     );
@@ -15,7 +15,7 @@ export const fetchProducts = createAsyncThunk(
 export const fetchProductsByTerm = createAsyncThunk(
   "products/fetchProductsByTerm",
   async (term) => {
-    debugger;
+    
     const response = await axios.get(
        `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${term}`
       

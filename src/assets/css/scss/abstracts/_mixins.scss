@@ -24,27 +24,27 @@
 
 @mixin responsive($breakpoint){
     @if $breakpoint == xlarge {
-        @media screen and (min-width: $xl){
+        @media screen and (max-width: $xl){
            @content;
         }
     }
     @if $breakpoint == large {
-        @media screen and (min-width: $lg){
+        @media screen and (max-width: $lg){
            @content;
         }
     }
     @if $breakpoint == medium {
-        @media screen and (min-width: $md){
+        @media screen and (max-width: $md){
           @content;
         }
     }
     @if $breakpoint == small {
-       @media screen and (min-width: $sm){
+       @media screen and (max-width: $sm){
           @content;
        }
    }
    @if $breakpoint == xsmall {
-       @media screen and (min-width: $xs){
+       @media screen and (max-width: $xs){
           @content;
        }
    }

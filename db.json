@@ -21,7 +21,14 @@
       "discount": 20,
       "isEMIAvailable": true,
       "available_size": ["Medium"],
-      "likes": 120
+      "likes": 120,
+      "case_size": "<17mm",
+      "availability": "Sold",
+      "gender": "Male",
+      "brand":"Aspen",
+      "buy_back_assurance": "50%",
+      "dial_color":"Black",
+      "strap_material": "Leather"
     },
     {
         "id": "pw101",
@@ -33,7 +40,14 @@
       "discount": 15,
       "isEMIAvailable": false,
       "available_size": ["Small", "Medium"],
-      "likes": 95
+      "likes": 95,
+      "case_size":"17-19mm",
+      "availability": "Available",
+      "gender": "Male",
+      "brand":"Guess",
+      "buy_back_assurance": "60%",
+      "dial_color":"Burgundy",
+      "strap_material": "Steel"
     },
     {
         "id": "pw103",
@@ -45,7 +59,14 @@
       "discount": 10,
       "isEMIAvailable": true,
       "available_size": ["Large"],
-      "likes": 200
+      "likes": 200,
+      "case_size":"20-22mm",
+      "availability": "Available",
+      "gender": "Male",
+      "brand":"Ball",
+      "buy_back_assurance": "70%",
+      "dial_color":"Purple",
+      "strap_material": "Rubber"
     },
     {
         "id": "pw104",
@@ -57,7 +78,14 @@
       "discount": 25,
       "isEMIAvailable": true,
       "available_size": ["Medium", "Large"],
-      "likes": 180
+      "likes": 180,
+      "case_size":"23-25mm",
+      "availability": "Available",
+      "gender": "Male",
+      "brand":"Apple",
+      "buy_back_assurance": "80%",
+      "dial_color":"Red",
+      "strap_material": "Ceramic"
     },
     {
         "id": "pw105",
@@ -69,7 +97,14 @@
       "discount": 20,
       "isEMIAvailable": false,
       "available_size": ["Small", "Medium", "Large"],
-      "likes": 220
+      "likes": 220,
+      "case_size":"26-28mm",
+      "availability": "Available",
+      "gender": "Male",
+      "brand":"Rolex",
+      "buy_back_assurance": "50%",
+      "dial_color":"Purple",
+      "strap_material": "Fabric"
     },
     {
         "id": "pw106",
@@ -81,7 +116,14 @@
       "discount": 15,
       "isEMIAvailable": true,
       "available_size": ["Large"],
-      "likes": 160
+      "likes": 160,
+      "case_size":"29-31mm",
+      "availability": "Available",
+      "gender": "Female",
+      "brand":"Guess",
+      "buy_back_assurance": "60%",
+      "dial_color":"Burgundy",
+      "strap_material": "Yellow Gold"
     },
     {
         "id": "pw107",
@@ -93,7 +135,14 @@
       "discount": 18,
       "isEMIAvailable": false,
       "available_size": ["Medium"],
-      "likes": 140
+      "likes": 140,
+      "case_size":"32-34mm",
+      "availability": "Available",
+      "gender": "Female",
+      "brand":"Cartier",
+      "buy_back_assurance": "70%",
+      "dial_color":"Red",
+      "strap_material": "Ceramic"
     },
     {
         "id": "pw108",
@@ -105,7 +154,14 @@
       "discount": 20,
       "isEMIAvailable": true,
       "available_size": ["Medium", "Large"],
-      "likes": 250
+      "likes": 250,
+      "case_size":"35-37mm",
+      "availability": "Available",
+      "gender": "Female",
+      "brand":"Hublot",
+      "buy_back_assurance": "80%",
+      "dial_color":"Brown",
+      "strap_material": "Fabric"
     },
     {
         "id": "pw109",
@@ -117,7 +173,13 @@
       "discount": 12,
       "isEMIAvailable": false,
       "available_size": ["Small", "Medium"],
-      "likes": 300
+      "likes": 300,
+      "case_size":"38-40mm",
+      "availability": "Available",
+      "gender": "Female",
+      "brand":"Chanel",
+      "buy_back_assurance": "50%",
+      "dial_color":"Black"
     },
     {
         "id": "pw110",
@@ -129,7 +191,13 @@
       "discount": 20,
       "isEMIAvailable": true,
       "available_size": ["Large"],
-      "likes": 210
+      "likes": 210,
+      "case_size":"41-43mm",
+      "availability": "Sold",
+      "gender": "Female",
+      "brand":"Hugo Boss",
+      "buy_back_assurance": "60%",
+      "dial_color":"Blue"
     },
     {
         "id": "pw111",
@@ -141,7 +209,13 @@
       "discount": 18,
       "isEMIAvailable": true,
       "available_size": ["Medium", "Large"],
-      "likes": 190
+      "likes": 190,
+      "case_size":"44-46mm",
+      "availability": "Available",
+      "gender": "Unisex",
+      "brand":"Ball",
+      "buy_back_assurance": "70%",
+      "dial_color":"Purple"
     },
     {
         "id": "pw112",
@@ -153,7 +227,13 @@
       "discount": 25,
       "isEMIAvailable": false,
       "available_size": ["Medium"],
-      "likes": 500
+      "likes": 500,
+      "case_size":"47-50mm",
+      "availability": "Sold",
+      "gender": "Unisex",
+      "brand":"Armani Exchange",
+      "buy_back_assurance": "50%",
+      "dial_color":"Red"
     },
     {
         "id": "pw113",
@@ -165,7 +245,13 @@
       "discount": 10,
       "isEMIAvailable": true,
       "available_size": ["Small", "Medium"],
-      "likes": 110
+      "likes": 110,
+      "case_size":">50mm",
+      "availability": "Available",
+      "gender": "Unisex",
+      "brand":"Aspen",
+      "buy_back_assurance": "50%",
+      "dial_color":"Burgundy"
     },
     {
         "id": "pw114",
@@ -177,7 +263,13 @@
       "discount": 20,
       "isEMIAvailable": false,
       "available_size": ["Medium", "Large"],
-      "likes": 320
+      "likes": 320,
+      "case_size":"20-22mm",
+      "availability": "Sold",
+      "gender": "Unisex",
+      "brand":"Apple",
+      "buy_back_assurance": "60%",
+      "dial_color":"Brown"
     },
     {
         "id": "pw115",
@@ -189,7 +281,14 @@
       "discount": 30,
       "isEMIAvailable": true,
       "available_size": ["Medium", "Large"],
-      "likes": 400
+      "likes": 400,
+      "case_size": "20-22mm",
+      "availability": "Available",
+      "gender": "Unisex",
+      "brand":"Rolex",
+      "buy_back_assurance": "50%",
+      "dial_color":"Black"
+
     }
   ]
 }

@@ -1,0 +1,41 @@
+@import '../abstracts/breackpoints';
+@import '../abstracts/mixins';
+@import '../abstracts/colors';
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .filter-section {
+    flex: 1; 
+    display: block; 
+  }
+  
+  .product-section {
+    flex: 3; 
+    display: block; 
+  }
+  
+  /* Media query for mobile resolution */
+
+  @include responsive(small) {
+    .filter-section {
+        display: none; /* Hide the filter section on mobile */
+      }
+    
+      .product-section {
+        flex: 1; /* Make the product section take up full width on mobile */
+      }
+  }
+  
+//   @media screen and (max-width: 768px) {
+//     .filter-section {
+//       display: none; /* Hide the filter section on mobile */
+//     }
+  
+//     .product-section {
+//       flex: 1; /* Make the product section take up full width on mobile */
+//     }
+//   }
+  
