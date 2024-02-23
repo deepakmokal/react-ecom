@@ -1,0 +1,36 @@
+@import '../abstracts/colors';
+@import '../abstracts/mixins';
+@import '../abstracts/breackpoints';
+
+
+.nav-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    li {
+        a {
+            font-size: medium;
+            color: $grey-800;
+        }
+        & a.active {
+            color: $grey-800;
+            font-weight: 500;
+            padding-bottom: .25rem;
+            border-bottom: 2px solid $primary-500;
+        }
+
+    }
+}
+
+@include responsive(small) {
+    .nav-container {
+        li {
+            a {
+                font-size: small;
+                color: $grey-800;
+            }
+        }
+    }    
+}
+

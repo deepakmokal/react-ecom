@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, lazy } from "react";
 import { filterOptions } from "../filterOptions";
-import AccordionItem from "./common/AccordionItem";
-import Accordion from "./common/Accordion";
+import { Suspense } from "react";
+
+const AccordionItem = lazy(() => import("./common/AccordionItem"));
+const Accordion = lazy(() => import("./common/Accordion"));
 
 const FilterSection = ({ onFilterChange }) => {
-    
   const [selectedFilters, setSelectedFilters] = useState({});
 
   const handleFilterChange = (category, value) => {
@@ -27,13 +28,12 @@ const FilterSection = ({ onFilterChange }) => {
   return (
     <div>
       <h3>Filter by:</h3>
-
-      <Accordion>
-        {filterOptions.map((option) => (
-          <AccordionItem key={option.category} title={option.category}>
-            <div>
-              {option.options.map((opt) => (
-                
+      <Suspense fallback={<h3>Loading...</h3>}>
+        <Accordion>
+          {filterOptions.map((option) => (
+            <AccordionItem key={option.category} title={option.category}>
+              <div>
+                {option.options.map((opt) => (
                   <label key={opt}>
                     <input
                       type="checkbox"
@@ -44,12 +44,12 @@ const FilterSection = ({ onFilterChange }) => {
                     />
                     {opt}
                   </label>
-                
-              ))}
-            </div>
-          </AccordionItem>
-        ))}
-      </Accordion>
+                ))}
+              </div>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      </Suspense>
     </div>
   );
 };

@@ -1,0 +1,28 @@
+@import '../abstracts/breackpoints';
+@import '../abstracts/colors';
+@import '../abstracts/mixins';
+
+
+.error-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //h-screen flex flex-col justify-center items-center
+
+    img.error-img {
+        height: 450px;
+        width: 450px;
+        //width="450px" height="450px"
+    }
+
+    .back-btn {
+        margin-top: 1.2rem;
+        border-radius: .3rem;
+        background-color: $primary-500;
+        color: $white;
+        padding: 1rem;
+        //mt-3 rounded bg-green-500 text-white px-2 py-1
+    }
+}

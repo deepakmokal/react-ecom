@@ -1,14 +1,14 @@
 //PRIMARY COLORS
-$primary-50: #FFDBA4; // Lightest shade
-$primary-100: #FFD180;
-$primary-200: #FFC45C;
-$primary-300: #FFB739;
-$primary-400: #FFAB1F;
-$primary-500: #FFA500; // Base color
-$primary-600: #E69500;
-$primary-700: #D58700;
-$primary-800: #C47900;
-$primary-900: #B26B00; // Darkest shade
+$primary-50: #FFDBA4 !default; // Lightest shade
+$primary-100: #FFD180 !default;;
+$primary-200: #FFC45C !default;;
+$primary-300: #FFB739 !default;;
+$primary-400: #FFAB1F !default;;
+$primary-500: #FFA500 !default;; // Base color
+$primary-600: #E69500 !default;;
+$primary-700: #D58700 !default;;
+$primary-800: #C47900 !default;;
+$primary-900: #B26B00 !default;; // Darkest shade
 
 
 $grey-50: hsl(210, 36%, 96%) !default;

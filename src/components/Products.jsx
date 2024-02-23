@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard";
 import "../assets/css/scss/pages/_product-list.scss";
 import { useSearch } from "../context/SearchContext";
 import bannerImg from "../assets/images/banner.jpg";
-import bannerImg2 from "../assets/images/banner2.jpg";
+import bannerImg2 from "../assets/images/banner3.jpg";
 import SortComponent from "./SortComponent";
 
 

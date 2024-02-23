@@ -1,0 +1,22 @@
+@import '../abstracts/breackpoints';
+@import '../abstracts/colors';
+@import '../abstracts/mixins';
+
+.header-section {
+    border-bottom: 1px solid $light-grey-400;
+    box-shadow: 1px 2px 3px $light-grey-400;
+    padding-bottom: .5rem;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+@include responsive(small) {
+    .header-wrapper {
+        flex-direction: column;
+    }       
+}

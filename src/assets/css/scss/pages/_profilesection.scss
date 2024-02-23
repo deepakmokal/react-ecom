@@ -1,0 +1,31 @@
+@import '../abstracts/breackpoints';
+@import '../abstracts/colors';
+@import '../abstracts/mixins';
+
+.profile-section-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .625rem;
+
+    .icons {
+        height: 1.25rem;
+        width: 1.25rem;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .sellbtn {
+        padding: .3rem .5rem;
+        color: $white;
+        border-radius: .3rem;
+        background-color: rgba($black, 0.9);
+
+        &:hover {
+            background-color: rgba($black, 0.8);
+        }
+    }
+}

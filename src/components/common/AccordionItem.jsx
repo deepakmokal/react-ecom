@@ -4,7 +4,7 @@ import plus from '../../assets/images/plus.svg';
 import minus from '../../assets/images/minus.svg';
 const AccordionItem = ({ title, children }) => {
     
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const toggleAccordion = () => {
     setIsOpen(!isOpen);

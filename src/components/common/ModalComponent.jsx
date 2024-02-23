@@ -1,4 +1,4 @@
-// ModalComponent.js
+
 import React from "react";
 import Modal from "react-modal";
 import plusIcon from '../../assets/images/plus.svg'
